@@ -1,0 +1,12 @@
+package listaExercicios01;
+
+import java.util.Scanner;
+
+public class Questao07 {
+	public static void main(String[] args) {
+		int num;
+		
+		Scanner lerNum = new Scanner(System.in);
+		
+	}
+}

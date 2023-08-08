@@ -1,0 +1,16 @@
+package listaExercicios01;
+
+import java.util.Scanner;
+
+public class Questao05 {
+	public static void main(String[] args) {
+		double salario;
+		
+		Scanner lerSalario = new Scanner(System.in);
+		
+		System.out.println("Salário: ");
+		salario = lerSalario.nextDouble();
+		
+	}
+
+}

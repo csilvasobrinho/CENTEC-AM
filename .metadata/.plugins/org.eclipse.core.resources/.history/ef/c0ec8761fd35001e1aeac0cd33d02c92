@@ -1,0 +1,23 @@
+package listaExercicios01;
+
+import java.util.Scanner;
+
+public class Questao05 {
+	public static void main(String[] args) {
+		double salario;
+		
+		Scanner lerSalario = new Scanner(System.in);
+		
+		System.out.println("Salário: ");
+		salario = lerSalario.nextDouble();
+		
+		if(salario <= 1000){
+			System.out.println("Salário Sem Reajuste: " + salario);
+			System.out.println("Percentual de Reajuste: 20%");
+			System.out.println("Aumento: " + (salario * 0.2));
+			System.out.println("Novo Salário: " + salario + (salario * 0.2));
+		}
+		
+	}
+
+}

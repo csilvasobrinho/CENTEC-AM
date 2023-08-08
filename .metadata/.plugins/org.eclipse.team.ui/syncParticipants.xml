@@ -10,7 +10,6 @@
 </mappings>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
-<gitSynchronizeData container="C:/CENTEC-AM/TIN-01-22-LING-PROG" dstRev="HEAD" inludeLocal="true" srcRev="HEAD"/>
 </data>
 </participant>
 </syncparticipants>

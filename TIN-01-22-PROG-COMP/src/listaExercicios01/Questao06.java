@@ -18,5 +18,6 @@ public class Questao06 {
 		System.out.println("MULTIPLICANDO..: " + num01 + " * " + num02 + " = " + (num01 * num02));
 		System.out.printf("DIVIDINDO......: %.2f / %.2f = %.2f", num01, num02, (num01 / num02));
 		
+		lerNum.close();
 	}
 }

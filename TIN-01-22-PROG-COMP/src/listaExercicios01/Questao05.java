@@ -32,5 +32,6 @@ public class Questao05 {
 			System.out.printf("Aumento: %.2f", (salario * 0.05));
 			System.out.printf("\nNovo Salário: %.2f", salario + (salario * 0.5));
 		}
+		lerSalario.close();
 	}
 }

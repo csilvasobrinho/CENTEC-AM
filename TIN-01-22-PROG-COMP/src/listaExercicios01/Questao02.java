@@ -12,11 +12,11 @@ public class Questao02 {
 		
 		System.out.println("Aluno: ");
 		nomeAluno = lerNome.nextLine();
-		System.out.println("Nota 01: ");
+		System.out.println("N. 01: ");
 		n1 = lerNotas.nextDouble();
-		System.out.println("Nota 02: ");
+		System.out.println("N. 02: ");
 		n2 = lerNotas.nextDouble();
-		System.out.println("Nota 03: ");
+		System.out.println("N. 03: ");
 		n3 = lerNotas.nextDouble();
 		
 		m = (n1 + n2 + n3) / 3;

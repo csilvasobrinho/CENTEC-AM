@@ -1,0 +1,13 @@
+package listaExercicios02;
+
+public class Questao05 {
+	public static void main(String[] args) {
+		int anoAtual, idade;
+		
+		Scanner lerValor = new Scanner(System.in);
+		
+		
+		
+	}
+
+}

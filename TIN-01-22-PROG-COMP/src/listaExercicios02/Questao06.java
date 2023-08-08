@@ -2,9 +2,9 @@ package listaExercicios02;
 
 import java.util.Scanner;
 
-public class Questao05 {
+public class Questao06 {
 	public static void main(String[] args) {
-		int cont, anoAtual, anoNasc, idade;
+		int cont, anoAtual, anoNasc, idade, qMaiores = 0, qMenores = 0;
 		
 		Scanner lerValor = new Scanner(System.in);
 		
@@ -18,12 +18,14 @@ public class Questao05 {
 			System.out.println("Idade: " + idade + " anos.");
 			if(idade <= 18) {
 				System.out.println("Menor de idade.");
+				qMenores++;
 			}else {
 				System.out.println("Maior de Idade");
+				qMaiores++;
 			}
 		}
-		
-		
+		System.out.println("Total de Menores: " + qMenores);
+		System.out.println("Total de Maiores: " + qMaiores);
 	}
 
 }

@@ -1,0 +1,17 @@
+.slide1{
+    background-color: red;
+    color: white;
+    height: 200px;
+}
+
+.slide2{
+    background-color: rgb(110, 15, 15);
+    color: white;
+    height: 200px;
+}
+
+.slide3{
+    background-color: rgb(4, 2, 93);
+    color: white;
+    height: 200px;
+}

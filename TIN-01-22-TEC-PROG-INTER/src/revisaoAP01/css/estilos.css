@@ -1,0 +1,28 @@
+h1{
+    color: blueviolet;
+}
+.cc{
+    color: orange;
+    font-size: 72px;
+}
+.oo{
+    color:darkgoldenrod;
+    font-size: 36px;
+}
+#par{
+    color: aquamarine;
+    font-size: 24px;
+}
+#par2{
+    color: blueviolet;
+    font-size: 24px;
+}
+body{
+    background-color:azure;
+}
+ol{
+    font-size: 36px;
+}
+ul{
+    font-size: 36px;
+}

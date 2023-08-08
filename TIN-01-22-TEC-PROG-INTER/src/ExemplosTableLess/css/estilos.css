@@ -1,0 +1,42 @@
+#site{
+    width:1000px;
+    height:700px;
+    margin-top:0;
+    margin-right:auto;
+    margin-bottom:0;
+    margin-left:auto;
+    background-color:#008B8B;
+    border-style:groove;
+    border-color: #F00;
+}
+#header{
+    width:1000px;
+    height:100px;
+    background-color:aliceblue;
+    text-align: center;
+}
+#conteudo{
+    width:1000px;
+    height:500px;
+    background-color:aquamarine;
+}
+#footer{
+    width:1000px;
+    height:50px;
+    background-color:#C3C;
+}
+#conteudo-left{
+    width:500px;
+    height:100px;
+    float:left;
+    background-color:aqua;
+}
+#conteudo-right{
+    width:500px;
+   height:100px;
+    float:right;
+    background-color:#F00;
+}
+h1{
+    text-align: center;
+}

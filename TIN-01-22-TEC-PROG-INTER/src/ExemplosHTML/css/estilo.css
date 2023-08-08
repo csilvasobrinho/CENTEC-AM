@@ -1,0 +1,16 @@
+h2{
+    color:blue;
+}
+
+body {
+    background-color:lightgray;
+ }
+
+div {
+    background-color:paleturquoise;
+ }
+
+ p, span, strong {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:beige;
+ }

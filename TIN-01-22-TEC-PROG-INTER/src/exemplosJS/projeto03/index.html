@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto02 - </title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <center>
+        <hr>
+        <img src="img/aposentadoria.jpg" height="250" width="250">
+        <hr>
+    </center>
+    <div class="dados">
+        <p>Qual sua idade: </p>
+        <input id="idade" type="number">
+        <button onclick="aposentar()">Ok</button> <br />
+    </div>
+ 
+    <script type="text/javascript">
+        function aposentar(){
+            var idade = parseInt(document.getElementById("idade").value);
+
+            if (idade >= 65)
+                alert("Parabens, voce ja pode se aposentar !");
+            else 
+                alert("Ainda falta " + (65-idade) +" ano(s) para se aposentar");
+        }
+    </script>
+</body>
+</html>

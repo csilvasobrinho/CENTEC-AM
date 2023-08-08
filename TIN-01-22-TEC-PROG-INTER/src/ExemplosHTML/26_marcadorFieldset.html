@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de campos com o marcador FIELDSET</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend accesskey="2">Informações de Contato</legend>
+            Nome:<input type=text name=nome><br>
+            E-Mail:<input type=text name=email><br>
+            Telefone:<input type=text name=tel><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend accesskey="c">Cartão de Crédito</legend>
+            <input type=radio name=card value=visa>Visa
+            <input type=radio name=card value=mc>Master Card
+            <br>
+            Número: <input type=text name=number>
+            <br>
+            Data de Validade: <input type=text size=7 name=data value="mm/aaaa">
+        </fieldset>
+    </form>
+</body>
+</html>

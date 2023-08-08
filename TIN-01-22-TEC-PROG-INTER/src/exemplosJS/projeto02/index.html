@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            Senha: <input id="password" type="password">
+            <button onclick="login()">Entrar</button>
+        </form>
+    </div>
+    
+    <script type="text/javascript">
+        var senha='2112';
+        
+        function login(){
+         var tentativa = document.getElementById("password").value;
+    
+        if (tentativa == senha)
+            alert("Senha correta, entrando no sistema...");
+        else
+            alert("Senha incorreta, tente novamente");
+        }
+    </script>
+</body>
+</html>

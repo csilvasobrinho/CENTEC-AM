@@ -1,0 +1,24 @@
+.one{
+    table-layout: automatic;
+}
+.two{
+    table-layout: fixed;
+}
+.coll{
+    border-collapse: collapse;
+}
+.sep {
+    border-collapse: separate;
+}
+.sp1{
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+.sp2{
+    border-collapse: separate;
+    border-spacing: 40px 60px;
+}
+.caption{
+    caption-side:top;
+}
+    

@@ -18,5 +18,6 @@ public class Questao03 {
 		}else if(idade >=18) {
 			System.out.println("Adulto!");
 		}
+		lerIdade.close();
 	}
 }

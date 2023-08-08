@@ -698,3 +698,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2023-08-08 10:21:49.448
 !MESSAGE Invalid property category path: org.eclipse.rcptt.ui.views.IntegrationsPropertiesPage (bundle: org.eclipse.rcptt.zephyr.ui, propertyPage: org.eclipse.rcptt.zephyr.ZephyrPropertiesPage)
+
+!ENTRY org.eclipse.debug.ui 4 0 2023-08-08 10:29:54.019
+!MESSAGE Tab group extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup for type org.eclipse.cdt.launch.applicationLaunchType for the [profile] mode has been replaced by extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup

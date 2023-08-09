@@ -2,10 +2,10 @@ package listaExercicios02;
 
 public class Questao01 {
 	public static void main(String[] args) {
-		int cont = 0;
+		int cont = 1;
 		
 		while(cont <= 10) {
-			System.out.println("Olá Mundo! - Contador em: " + cont);
+			System.out.println(cont + "o. Olá Mundo!");
 			cont++;
 		}
 	}

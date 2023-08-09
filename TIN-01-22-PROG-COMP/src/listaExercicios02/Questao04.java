@@ -3,8 +3,7 @@ package listaExercicios02;
 public class Questao04 {
 	public static void main(String[] args) {
 		int cont = 1, soma = 0;
-		
-		while(cont <= 10) {
+		while (cont <= 10) {
 			System.out.println("Contador em: " + cont);
 			soma = soma + cont;
 			cont++;

@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class Questao06 {
 	public static void main(String[] args) {
 		int cont, anoAtual, anoNasc, idade, qMaiores = 0, qMenores = 0;
-		
+
 		Scanner lerValor = new Scanner(System.in);
-		
+
 		System.out.println("Ano Atual: ");
 		anoAtual = lerValor.nextInt();
-		
-		for(cont = 1; cont <= 10; cont++) {
+
+		for (cont = 1; cont <= 10; cont++) {
 			System.out.println("Ano Nasc.: ");
 			anoNasc = lerValor.nextInt();
 			idade = anoAtual - anoNasc;
 			System.out.println("Idade: " + idade + " anos.");
-			if(idade <= 18) {
+			if (idade <= 18) {
 				System.out.println("Menor de idade.");
 				qMenores++;
-			}else {
+			} else {
 				System.out.println("Maior de Idade");
 				qMaiores++;
 			}

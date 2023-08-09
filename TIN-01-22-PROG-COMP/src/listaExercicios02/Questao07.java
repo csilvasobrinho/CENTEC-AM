@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class Questao07 {
 	public static void main(String[] args) {
-		int cont=1, contPar=0, contImpar=0;
-		double num=0;
-		
+		int cont = 1, contPar = 0, contImpar = 0;
+		double num = 0;
+
 		Scanner lerNum = new Scanner(System.in);
-		
-		while(cont <= 10) {
+
+		while (cont <= 10) {
 			System.out.println("Numero: ");
 			num = lerNum.nextDouble();
-			if((num % 2) == 0) {
+			if ((num % 2) == 0) {
 				System.out.println("Par!");
 				contPar++;
-			}else {
+			} else {
 				System.out.println("Impar!");
 				contImpar++;
 			}

@@ -5,7 +5,7 @@ public class Questao03 {
 		int cont;
 		
 		for(cont = 1; cont <= 20;cont++) {
-			System.out.println("Olá Mundo! - Contador em: " + cont);
+			System.out.println(cont + "o. Olá Mundo!");
 		}
 	}
 }

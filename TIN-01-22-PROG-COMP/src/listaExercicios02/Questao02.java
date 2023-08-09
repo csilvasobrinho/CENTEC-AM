@@ -5,7 +5,7 @@ public class Questao02 {
 		int cont = 0;
 		
 		do {
-			System.out.println("Olá Mundo! - Contador em: " + cont);
+			System.out.println(cont + "o. Olá Mundo!");
 			cont++;
 		}while(cont <= 15);
 	}

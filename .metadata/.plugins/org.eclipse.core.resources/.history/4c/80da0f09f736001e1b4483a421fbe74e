@@ -1,0 +1,12 @@
+package pooBasico;
+
+public class Conta {
+	int numero;
+	String titular;
+	double saldo;
+	
+	void saca(double quantidade) {
+		double novoSaldo = thiss.saldo - quantidade;
+		this.saldo = novoSaldo;
+	}
+}

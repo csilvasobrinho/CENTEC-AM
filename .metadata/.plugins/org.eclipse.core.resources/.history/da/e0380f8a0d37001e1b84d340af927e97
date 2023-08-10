@@ -8,8 +8,8 @@ public class Conta {
 	void sacar(double quantidade) {
 		double novoSaldo = this.saldo - quantidade;
 		this.saldo = novoSaldo;
-		
 	}
+	
 	void depositar(double quantidade) {
 		this.saldo += quantidade;
 	}
@@ -22,4 +22,5 @@ public class Conta {
 			return true;
 		}
 	}
+	
 }

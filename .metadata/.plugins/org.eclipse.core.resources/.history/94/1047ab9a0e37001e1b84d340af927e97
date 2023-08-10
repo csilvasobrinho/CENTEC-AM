@@ -7,16 +7,17 @@ public class TestarAlgunsMetodos {
 		minhaConta = new Conta();
 		
 		//alterando os valores de minhaConta
-		minhaConta.
-		//minhaConta.saldo = 500;
+		minhaConta.titular = "Duke";
+		minhaConta.saldo = 500;
 		
 		//saca 200 reais
-		//minhaConta.sacar(200);
+		minhaConta.sacar(200);
 		
 		//depositar 500 reais
-		//minhaConta.depositar(500);
+		minhaConta.depositar(500);
 				
-		minhaConta.saca(10000);
+		minhaConta.saca(100);
 		System.out.println(minhaConta.saldo);
+		
 	}
 }

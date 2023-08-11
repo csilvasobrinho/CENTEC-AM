@@ -7,7 +7,7 @@ public class TestarAlgunsMetodos {
 		minhaConta = new Conta();
 		
 		//alterando os valores de minhaConta
-		minhaConta.
+		minhaConta.numero = 10;
 		//minhaConta.saldo = 500;
 		
 		//saca 200 reais

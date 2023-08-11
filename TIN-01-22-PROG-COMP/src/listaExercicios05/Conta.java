@@ -1,11 +1,11 @@
 package listaExercicios05;
 
 public class Conta {
-	String nomeTitular;
+	String nomeTitular = "Manoel";
 	int numeroConta;
 	String agencia;
 	double saldo;
-	String dataAbertura;
+	Data dataAbertura;
 	
 	void sacar(double valor) {
 		
@@ -16,7 +16,12 @@ public class Conta {
 	void calcularRedimento(double valor) {
 		
 	}
-	void recuperaDadosParaImpressao(double valor) {
-		return;
+	String recuperaDadosParaImpressao() {
+		String dados = "\nTitular: " + this.nomeTitular;
+		dados +="\nData: " + this.dataAbertura.dia + "/";
+		dados += this.dataAbertura.mes + "/";
+		dados += this.dataAbertura.ano;
+		
+		return dados;
 	}
 }

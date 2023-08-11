@@ -16,4 +16,7 @@ public class Conta {
 	void calcularRedimento(double valor) {
 		
 	}
+	void recuperaDadosParaImpressao(double valor) {
+		return;
+	}
 }

@@ -1,0 +1,10 @@
+package listaExercicios05;
+
+public class TestarConta {
+	public static void main(String[] args) {
+		Conta contaClientes;
+		contaClientes =  new Conta();
+		
+	}
+
+}

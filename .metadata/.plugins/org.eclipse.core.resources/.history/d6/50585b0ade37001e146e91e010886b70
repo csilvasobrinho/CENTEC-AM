@@ -1,0 +1,18 @@
+package listaExercicios05;
+
+public class TestarConta {
+	public static void main(String[] args) {
+		Conta c1; c1 =  new Conta();
+		c1.nomeTitular = "Danilo";
+		c1.saldo = 1000;
+		
+		Conta c2; c2 = new Conta();
+		c2.nomeTitular = "Maria";
+		c2.saldo = 500;
+		
+		System.out.println("Titular: " + c1.nomeTitular);
+		c1.nomeTitular = "Titula Via Programa Principal";
+		System.out.println("Titular: " + c1.nomeTitular);
+		
+	}
+}

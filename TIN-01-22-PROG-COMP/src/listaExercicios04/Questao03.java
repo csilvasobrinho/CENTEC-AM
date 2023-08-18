@@ -18,5 +18,6 @@ public class Questao03 {
 			vetorB[i] = (int) Math.pow(vetorA[i], 2);
 			System.out.println("Posição: " + i + " - Vetor A ao Quadrado = " + vetorB[i]);
 		}
+		lerValor.close();
 	}
 }

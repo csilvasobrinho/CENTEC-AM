@@ -1,9 +1,0 @@
-package aulaPOOBasico;
-
-public class TestarAlgunsMetodos {
-	public static void main(String[] args) {
-		Conta minhaConta;
-		minhaConta = new Conta();
-	}
-
-}

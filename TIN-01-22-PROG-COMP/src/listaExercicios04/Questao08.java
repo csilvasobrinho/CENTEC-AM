@@ -22,5 +22,6 @@ public class Questao08 {
 			vetorC[i] = vetorA[i] * vetorB[i];
 			System.out.println("Posição: " + i + " - Vetor C = " + vetorC[i]);
 		}
+		lerValor.close();
 	}
 }

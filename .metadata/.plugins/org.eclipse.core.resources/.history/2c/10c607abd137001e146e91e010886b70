@@ -1,9 +1,0 @@
-package listaExercicios05;
-
-public class Conta {
-	String nomeTitular;
-	int numeroConta;
-	String agencia;
-	double saldo;
-	String dataAbertura;
-}

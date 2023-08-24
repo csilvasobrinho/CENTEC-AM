@@ -1,4 +1,4 @@
-package materialExcecoesTryChatch;
+package excecoes01.TryChatch;
 import java.util.Scanner;
 public class ExemploTryCatch01 {
 	public static void main(String[] args) {

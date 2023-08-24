@@ -1,4 +1,4 @@
-package materialExcecoesTryChatch;
+package excecoes01.TryChatch;
 /*
  * Classe utilizada para demonstrar o bloco try / catch.
  */

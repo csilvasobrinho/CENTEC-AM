@@ -1,4 +1,4 @@
-package materialExcecoesthrows;
+package excecoes04.Throws;
 import java.util.Scanner;
 public class ExemploThrows01 {
 	public static void main(String[] args) {

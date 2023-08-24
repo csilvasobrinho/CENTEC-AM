@@ -1,4 +1,4 @@
-package materialExcecoesBlocofinnaly;
+package excecoes02.BlocoFinnaly;
 import java.util.Scanner;
 public class ExemploFinally {
 	public static void main(String[] args) {

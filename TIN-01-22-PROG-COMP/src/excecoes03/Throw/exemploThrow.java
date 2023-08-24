@@ -1,4 +1,4 @@
-package materialExcecoesThrow;
+package excecoes03.Throw;
 import java.util.Scanner;
 public class exemploThrow {
 	public static final String SENHASECRETA = "123456";

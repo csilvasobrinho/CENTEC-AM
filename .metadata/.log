@@ -1456,3 +1456,6 @@ END
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 18:27:49.215
 !MESSAGE Started org.springframework.tooling.boot.ls LS process 7248
+
+!ENTRY org.eclipse.ui 2 2 2023-08-25 18:28:27.245
+!MESSAGE Invalid property category path: org.eclipse.rcptt.ui.views.IntegrationsPropertiesPage (bundle: org.eclipse.rcptt.zephyr.ui, propertyPage: org.eclipse.rcptt.zephyr.ZephyrPropertiesPage)

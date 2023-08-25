@@ -1,4 +1,4 @@
-package listaExercicios10;
+package listaExercicios11;
 
 public enum Dias {
 	DOMINGO(1),

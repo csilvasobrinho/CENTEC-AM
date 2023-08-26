@@ -1,5 +1,4 @@
 package listaExercicios11;
-
 public enum MesesDoAno {
 	JANEIRO(1),
 	FEVEREIRO(2),

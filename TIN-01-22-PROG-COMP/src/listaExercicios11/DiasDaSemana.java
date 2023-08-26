@@ -5,11 +5,11 @@ public class DiasDaSemana {
 	
 	public static void main(String[] args) {
 		DiasDaSemana dia = new DiasDaSemana();
-		dia.diaDaSemana = Dias.SEGUNDA;
 		
-		System.out.println(dia.diaDaSemana);
-		System.out.println(dia.diaDaSemana.valorDia);
+		dia.diaDaSemana = Dias.QUARTA;
 		
+		System.out.println(dia.diaDaSemana
+				+ " - "
+				+ dia.diaDaSemana.valorDia);
 	}
-
 }

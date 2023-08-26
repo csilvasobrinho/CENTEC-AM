@@ -3,7 +3,10 @@ package listaExercicios11;
 public class Esportes {
 	
 	public enum Esporte{
-		FUTEBOL, NATACAO, MUSCULACAO, BICICLETA;
+		FUTEBOL,
+		NATACAO,
+		MUSCULACAO,
+		BICICLETA;
 	}
 	
 	Esporte meuFavorito;
@@ -11,7 +14,7 @@ public class Esportes {
 	public static void main(String[] args) {
 		Esportes favorito = new Esportes();
 		
-		System.out.println("Meu esporte favorito é: " + favorito.meuFavorito.MUSCULACAO);
+		System.out.println("Meu esporte favorito é: " 
+		+ favorito.meuFavorito.NATACAO);
 	}
-
 }

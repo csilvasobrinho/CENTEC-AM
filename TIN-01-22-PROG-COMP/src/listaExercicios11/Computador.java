@@ -6,7 +6,7 @@ public class Computador {
 		Computador computador = new Computador();
 		computador.modelo = ModeloPC.SAMSUNG;
 		
-		System.out.println("Modelo do PC: " + computador.modelo);
+		System.out.println("Modelo do PC: "
+				+ computador.modelo);
 	}
-
 }

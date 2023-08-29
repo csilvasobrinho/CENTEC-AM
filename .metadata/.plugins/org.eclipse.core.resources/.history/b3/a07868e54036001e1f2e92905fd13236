@@ -1,8 +1,0 @@
-package listaExercicios02;
-
-public class Questao05 {
-	public static void main(String[] args) {
-		int anoAtual, 
-	}
-
-}

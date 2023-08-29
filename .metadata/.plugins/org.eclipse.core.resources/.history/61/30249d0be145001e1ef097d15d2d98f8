@@ -1,0 +1,15 @@
+package listaExercicios11;
+
+public class DiasDaSemana2 {
+	Dias diaDaSemana;
+	
+	public static void main(String[] args) {
+		DiasDaSemana2 dia = new DiasDaSemana2();
+		
+		dia.diaDaSemana = Dias.QUARTA;
+		
+		System.out.println(dia.diaDaSemana
+				+ " - "
+				+ dia.diaDaSemana.valorDia);
+	}
+}

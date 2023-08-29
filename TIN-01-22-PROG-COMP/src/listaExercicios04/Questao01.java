@@ -15,7 +15,12 @@ public class Questao01 {
 		
 		for(i = 0; i < vetorA.length; i++) {
 			vetorB[i] = vetorA[i];
-			System.out.println("Posição: " + i + " - Vetor A: " + vetorA[i] + " = Vetor B: " + vetorB[i]);
+			System.out.println("Posição: "
+					+ i 
+					+ " - Vetor A: " 
+					+ vetorA[i] 
+					+ " = Vetor B: " 
+					+ vetorB[i]);
 		}
 		lerValor.close();
 	}

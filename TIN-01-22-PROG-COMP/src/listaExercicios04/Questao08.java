@@ -12,9 +12,9 @@ public class Questao08 {
 		int[] vetorC = new int[10];
 		
 		for(i = 0; i < vetorA.length; i++) {
-			System.out.println("Valor da posição: " + i + " do Vetor A: ");
+			System.out.println("Valor da posição: " + i + " no Vetor A: ");
 			vetorA[i] = lerValor.nextInt();
-			System.out.println("Valor da posição: " + i + " do Vetor B: ");
+			System.out.println("Valor da posição: " + i + " no Vetor B: ");
 			vetorB[i] = lerValor.nextInt();
 		}
 		
